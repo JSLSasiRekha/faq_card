@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+body {
+    background-color: hsl(273, 75%, 66%);
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(240, 6%, 50%);
+}
+.card {
+    height: 40rem;
+    width: 70rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction:row;
+    margin-left:220px;
+    margin-right:220px;
+    margin-top:126px;
+    margin-bottom:32px;
+    padding:15px;
+    padding-bottom:-20px;
+   overflow: hidden;
+    border-radius: 30px;
+    background-color:white;}
+    
+ .womenimg{
+    z-index: 1;
+    position: relative;
+    height: 60%;
+    width: 120%;
+    top: -37rem;
+    left: 25rem;
+}
+.box{
+    z-index: 2;
+    position: relative;
+    top: 12.5rem;
+    left: 7rem;
+}  
+.faqtext {
+    
+    padding-left: 100px;
+    padding-top: 48px;
+}
+
+
+.hero-image{
+    width: 43%;
+    position: relative;
+    left: -32rem;
+    top: -19rem;
+}
+h1 {
+    color: hsl(237, 12%, 33%)
+}
+h4:hover{
+    color: hsl(14, 88%, 65%);
+}
+
+p{
+    display: none;
+}
+
+#revarrow{
+    margin-top:-37px;
+    padding-left:-1px;
+    transform: scale(-1,-1);
+}
+.block{
+    display:flex;
+}
+.block img {
+    height: 100%;
+    padding-left: 175px;
+    padding-top:4px;
+}
+#arr3 {
+   padding-left: 245px;
+}
+#arr4 {
+    padding-left: 244px;
+   
+ }
+ #arr5 {
+    padding-left: 199x;
+    padding-right:-30px;
+ }
+ .mobile{
+    display:none;
+ }
+@media only screen and (min-width:200px )and (max-width:700px) {
+    .card{
+        display:flex;
+        flex-direction: column;
+        width:fit-content;
+        margin-left:65px;
+        margin-right:45px;
+        margin-top:150px;
+        margin-bottom: 30px;
+        padding: 20px;
+        
+    }
+    .faqtext{
+        padding-top: 100px;
+        padding-left:30px;
+        padding-right: 20px;
+    }
+    .womenimg{
+        display:none;
+    }
+    #bg{
+        display:none;
+    }
+    .box{
+        display:none;
+    }
+    .mobile{
+        display:block;
+        position: absolute;
+    }
+    #womenmobile{
+        margin-bottom:8%;
+        margin-top:-45%;
+        height:200px;
+        margin-left: 38%;
+        
+    }
+    #bgmobile{
+        margin-top:1%;
+        margin-left:43%;
+        position:absolute;
+    }
+    .block img {
+        padding-left: 5%;
+    }
+    #arr3 {
+        padding-left: 98px;
+    }
+    #arr4 {
+        padding-left: 94px;
+    }
+    #arr5{
+        padding-left: 31px;
+    }
+    h1{
+        padding-left: 100px;
+    }
+
+}
